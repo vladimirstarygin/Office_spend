@@ -687,6 +687,6 @@ if __name__ == '__main__':
     bot = DialogBot.get_secure_bot(
         "hackathon-mob.transmit.im",  # bot endpoint from environment
         grpc.ssl_channel_credentials(), # SSL credentials (empty by default!)
-        '7f38e457bebadf578dbba6d5ccbacd4b3e926938'  # bot token from environment
+        'b60e298edcad9a140c58b69593cd2207d5911c3c'  # bot token from environment
     )
     bot.messaging.on_message(on_msg, on_click)
